@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite cars</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
+    <link rel="manifest" href="favicon.png" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="logo.png" alt="Logo" width="30" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cars.html">Favorite cars</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="911TurboS.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">911 Turbo S</h5>
+              <p class="card-text">
+                The Porsche 911 Turbo S is a sports car, the first model was
+                presented at Paris Motor Show in 1974. In addition, the Porsche
+                911 Turbo S has some unique features, such as a single-purpose
+                light strip, including the "PORSCHE" logo on the back.
+              </p>
+              <a
+                href="https://www.porsche.com/central-eastern-europe/ru/models/911/911-turbo-models/911-turbo-s/"
+                target="_blank"
+                class="btn btn-primary"
+                >Buy</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Taycan4S.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Taycan 4S</h5>
+              <p class="card-text">
+                The Porsche Taycan 4S is an electric sports sedan from Porsche,
+                which was introduced in 2019. It is available with two battery
+                sizes and can reach power up to 390 kW (530 hp) using
+                Performance Battery.
+              </p>
+              <a
+                href="https://www.porsche.com/central-eastern-europe/ru/models/taycan/taycan-models/taycan-4s/"
+                target="_blank"
+                class="btn btn-primary"
+                >Buy</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="CayenneCoupe.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cayenne Turbo GT Coupé</h5>
+              <p class="card-text">
+                The Porsche Cayenne Turbo GT Coupé is a sports crossover from
+                Porsche, which was introduced in 2021. It is powered by a
+                4.0-liter twin-turbocharged V8 engine that develops 631 hp and
+                626 lb-ft of torque.
+              </p>
+              <a
+                href="https://www.porsche.com/central-eastern-europe/ru/models/cayenne/cayenne-coupe-models/cayenne-coupe-turbo-gt/"
+                target="_blank"
+                class="btn btn-primary"
+                >Buy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
